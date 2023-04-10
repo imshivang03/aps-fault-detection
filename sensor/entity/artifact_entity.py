@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+@dataclass
 class DataIngestionArtiact:
     feature_store_file_path: str
     train_file_path: str
